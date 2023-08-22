@@ -5,10 +5,14 @@
 }
 .flex-box {
   width: 350px;
-  height: 150px;
+  height: 250px;
   background-color: aquamarine;
   border: 2px solid red;
   display: flex;
+
+  flex-flow: row wrap;
+  flex-flow: column wrap;
+  flex-flow: row-reverse wrap-reverse;
 }
 
 .flex-item {

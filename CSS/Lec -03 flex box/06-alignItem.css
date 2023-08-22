@@ -5,14 +5,20 @@
 }
 .flex-box {
   width: 350px;
-  height: 150px;
+  height: 250px;
   background-color: aquamarine;
   border: 2px solid red;
   display: flex;
+
+  align-items: baseline;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: center;
+  align-items: stretch;
 }
 
 .flex-item {
-  width: 100px;
+  width: 70px;
   height: 100px;
   background-color: aqua;
   border: 2px solid blue;

@@ -5,42 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repeate and Fractional Unit</title>
-
-    <style>
-        .container{
-            display: grid;
-            background-color: aqua;
-            height: 400px;
-            text-align: center;
-            grid-template: 40px 1fr 40px/repeat(4,1fr);
-            grid-template-areas: 
-            "h h h h"
-            "m c c s"
-            "f f f f"
-            ;
-        }
-
-        .box{
-            background-color: dimgrey;
-            color: #fff;
-            border: 1px solid lightgreen;
-        }
-
-        #header
-        {
-            grid-area: h;
-        }
-
-        #footer
-        {
-            grid-area: f;
-        }
-
-        #content{
-            grid-area: c;
-        }
-    </style>
-
+    <link rel="stylesheet" href="06-gridArea.css">
 </head>
 <body>
     <h1>Grid Column Starts and Ends / Grid Row Starts and Ends</h1>

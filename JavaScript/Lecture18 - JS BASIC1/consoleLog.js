@@ -7,12 +7,12 @@ let name1 = "Nitish kumar"
 console.log(name1);
 
 
-let name = "Nitish kumar"
+let Name = "Nitish kumar"
 {
-    name = "aryan"
-    console.log(name);
+    Name = "aryan"
+    console.log(Name);
 } 
-console.log(name);
+console.log(Name);
 
 
 var nam = "nitish"

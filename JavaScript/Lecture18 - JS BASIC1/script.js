@@ -10,18 +10,19 @@ let n1;
 // Dynamic Typing
 let a = 5;
 console.log(a);
-a = "Priyansh Patel";
+a = "Nitish kumar";
 console.log(a);
 
 // Reference Type
 // #1 - Object
 const obj = {
-  Name: "Priyansh",
-  Age: "##",
+  Name: "Neha Love",
+  Age: 22,
 };
+console.log(obj.Name)
 
 // #2 - Array
-let arr = ["Priyansh", 0];
+let arr = ["Nitish", 0];
 
 // Operator
 // Arithmetic

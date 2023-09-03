@@ -1,3 +1,16 @@
+// // Create Constructor function
+// function rectangle(){
+//   this.length = 5;
+//   this.breadth = 5;
+
+//   this.area = function () {
+//     console.log(rectangle.length * rectangle.breadth);
+//   }
+// }
+
+// let obj = new rectangle(5,5);
+// console.log(obj.len);
+
 // Factory Function is a fucntion which produces objects when we called it
 function createRectangle(length,breadth) {
   const rectangle = {

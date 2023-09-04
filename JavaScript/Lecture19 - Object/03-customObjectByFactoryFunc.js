@@ -11,6 +11,7 @@
 // let obj = new rectangle(5,5);
 // console.log(obj.len);
 
+
 // Factory Function is a fucntion which produces objects when we called it
 function createRectangle(length,breadth) {
   const rectangle = {

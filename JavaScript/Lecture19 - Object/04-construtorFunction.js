@@ -4,7 +4,7 @@ function Employee(name,age,colony,street) {
 
     this.address = {
         street,
-        colony,
+        colony
     }
 }
 

@@ -20,6 +20,8 @@ function createRectangle(len , bre ) {
 
 let rectangle1 = createRectangle(5,8);
 console.log(rectangle1.length);
+
+
 // console.log(rectangle1.draw());
 
 

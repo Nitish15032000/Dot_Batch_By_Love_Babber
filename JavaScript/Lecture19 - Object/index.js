@@ -1,25 +1,24 @@
 // console.log("Lecture2 Start of JS");
 
-// const rectangle = {
-//     "length" : 1, //property
-//     "breadth" : 2, //Property
+// // const rectangle = {
+// //     "length" : 1, //property
+// //     "breadth" : 2, //Property
 
-//     draw : function(){
-//         console.log("Rectangle Drawing");
-//     }
-// }
+// //     draw : function(){
+// //         console.log("Rectangle Drawing");
+// //     }
+// // }
+// // // Access -
+// // console.log(rectangle.length); // 1
+// // rectangle.draw(); //Rectangle Drawing
 
-// // Access - 
-// console.log(rectangle.length); // 1
-// rectangle.draw(); //Rectangle Drawing
-
-// //Factory Function
+// // // Factory Function
 // // function createRectangle()
 // // {
 // //     const rectangle = {
 // //         "length" : 1, //property
 // //         "breadth" : 2, //Property
-    
+
 // //         draw : function(){
 // //             console.log("Rectangle Drawing");
 // //         }
@@ -27,38 +26,49 @@
 // //     return rectangle;
 // // }
 
+// // // or
+
+// // function createRectangle()
+// // {
+// //     return rectangle = {
+// //         "length" : 1, //property
+// //         "breadth" : 2, //Property
+
+// //         draw : function(){
+// //             console.log("Rectangle Drawing");
+// //         }
+// //     }
+// // }
 // // let newRectangle = createRectangle();
 // // newRectangle.draw();
 
-// // #Custom Value 
-// function createRectangle(length,breadth)
-// {
-//     const rectangle = {
-        
-//         length,
-//         breadth,
-    
-//         draw : function(){
-//             console.log(`Rectangle Of Breadth : ${breadth} Length : ${length}`);
-//         }
-//     }
-//     return rectangle;
+// // #Custom Value
+// function createRectangle(length, breadth) {
+//   const rectangle = {
+//     length,
+//     breadth,
+
+//     draw: function () {
+//       console.log(`Rectangle Of Breadth : ${breadth} Length : ${length}`);
+//     },
+//   };
+//   return rectangle;
 // }
 
-// let rect1 = createRectangle(5,10);
+// let rect1 = createRectangle(5, 10);
 // rect1.draw();
 
-// let rect2 = createRectangle(2,1);
+// let rect2 = createRectangle(2, 1);
 // rect2.draw();
 
-// // Constructor Function 
-// function Car(color,weight)
-// {
-//     this.color = color;
-//     this.weight = weight;
+// // // Constructor Function
+// function Car(color, weight) {
+//   // console.log("hello")
+//   this.color = color;
+//   this.weight = weight;
 // }
 
-// const bmw = new Car("red",400);
+// const bmw = new Car("red", 400);
 
 // console.log(bmw.color);
 
@@ -68,48 +78,54 @@
 // delete bmw.model;
 // console.log(bmw);
 
-// // Primitive types
+// // // Primitive types
 
 // let a = 10;
 // let b = a;
 // a++;
 // console.log(a, b);
 
-// // Referene Types 
+// // // Referene Types
 
-// let aa = {value : 10};
+// let aa = { value: 10 };
 // let bb = aa;
 // aa.value++;
 // console.log(aa, bb);
 
+// let Rectangle = {
+//   length: 10,
+//   breadth: 20,
+// };
 
-let Rectangle = {
-    length : 10,
-    breadth : 20
-}
+// // // for-in loop
+// for (let key in Rectangle) {
+//   console.log(key, Rectangle[key]);
+// }
 
-// for-in loop 
-for(let key in Rectangle)
-{
-    console.log(key, Rectangle[key]);
-}
+// // // for-of loop
+// for (let i of Object.keys(Rectangle)) {
+//   console.log(i, Rectangle[i]);
+// }
 
-// for-of loop 
-for(let i of Object.keys(Rectangle))
-{
-    console.log(i, Rectangle[i]);
-}
+// // let arr = [10,20,30,40]
+// for (let i in arr) {
+//   console.log(arr[i]);
+// }
+// if ("length" in Rectangle) {
+//   console.log("Present");
+// } else {
+//   console.log("Absent");
+// }
 
-let arr = [10,20,30,40]
-for(let i in arr)
-{
-    console.log(arr[i]);
-}
+let obj = {
+  value: 10,
+};
 
-if('length' in Rectangle)
-{
-    console.log("Present")
+let obj2 = {};
+
+for (let key in obj) {
+  obj2[key] = obj[key];
 }
-else{
-    console.log("Absent");
-}
+console.log(obj2)
+
+// console.log(obj2.value);

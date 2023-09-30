@@ -1,18 +1,18 @@
-// // window object
-// console.log(document);
-// window.console.log(document.body);
+// window object
+console.log(document);
+window.console.log(document.body);
 
 
 // DOM 
 // #1 - id 
-// window.console.log(document.getElementById("navbarSupportedContent"));
+window.console.log(document.getElementById("navbarSupportedContent"));
 
-// // #2 - class 
-// console.log(document.getElementsByClassName('nav-link'));
-// console.log(document.getElementsByClassName('nav-link')[0]);
+// #2 - class 
+console.log(document.getElementsByClassName('nav-link'));
+console.log(document.getElementsByClassName('nav-link')[0]);
 
-// // #3 - TAg 
-// console.log(document.getElementsByTagName('p'));
+// #3 - TAg 
+console.log(document.getElementsByTagName('p'));
 
 
 // #4 - $0 

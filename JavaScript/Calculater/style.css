@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.result{
+    height: 50px;
+    width: 300px;
+    background-color: #6cf6db;
+}
+.input{
+    display: flex;
+    flex-direction: col;
+    height: 120px;
+    width: 25px;
+}

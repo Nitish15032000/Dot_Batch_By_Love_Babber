@@ -1,0 +1,27 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    background-color: #a7f0d6;
+}
+
+
+.container{
+    background-color: #0bf6ea;
+    height: 280px;
+    width: 650px;
+    border: 2px solid black;
+}
+#box1{
+    background-color: #e51ac6;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    float: right;
+}
+#box2{
+    background-color: #330def;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    float: inline-end;
+}

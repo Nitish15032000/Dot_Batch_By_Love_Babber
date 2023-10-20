@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+  width: 100em;
+  height: 100em;
+  background-color: #232d52;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 10cm;
+}
+#textline {
+  color: aqua;
+}
+.box {
+  padding: 7px;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  column-gap: 0.5cm;
+  background-color: #ffffff;
+  color: black;
+}
